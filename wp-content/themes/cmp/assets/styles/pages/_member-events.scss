@@ -32,7 +32,6 @@
 
   .activity__image > img {
     @include object-fit(cover);
-    max-height: 200px;
   }
 
   .activity__content {
@@ -47,7 +46,8 @@
     }
   }
 
-  .activity__location, .activity__datetime {
+  .activity__location,
+  .activity__datetime {
     font-weight: 400;
   }
 
