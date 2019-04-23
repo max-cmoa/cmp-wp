@@ -132,3 +132,10 @@ add_filter('rest_issue_query', function ($args, $request) {
 
     return $args;
 }, 10, 2);
+
+// Patch Simple Page Tester to use cookies instead of sessions
+add_filter('init', function() {
+    if(class_exists('SPTSessionHandler')) {
+        require(__DIR__.'/lib/SPTCookieHandler.php');
+    }
+});
