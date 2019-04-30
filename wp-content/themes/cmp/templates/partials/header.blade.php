@@ -1,5 +1,13 @@
 @php($minimal_template = get_field('minimal_template'))
 @if (empty($minimal_template))
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TT63V54"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) - Members -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55HHHVP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
   <header class="top-bar-container">
     <div class="top-bar">
       <div class="top-bar__left">
