@@ -9,7 +9,7 @@ $neat-grid: (
 $extra-large: (
   columns: 12,
   gutter: $base-spacing,
-  media: '(max-width: $max-width)'
+  media: '(max-width: #{$max-width})'
 );
 
 $large: (
