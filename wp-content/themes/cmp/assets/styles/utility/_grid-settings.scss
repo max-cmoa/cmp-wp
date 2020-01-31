@@ -1,6 +1,8 @@
 // NEAT GRID SETTINGS - See http://neat.bourbon.io/ for documentation
 ////////////////////////////////////////////////////////////////
 
+$grid-columns: 12;
+
 $neat-grid: (
   columns: 12,
   gutter: $base-spacing,
@@ -28,6 +30,11 @@ $small: (
   columns: 12,
   gutter: $base-spacing,
   media: '(max-width: 450px)'
+);
+
+// uses variable interpolation to be used in nth() function
+$extra-small: (
+   new-breakpoint: '#{(max-width 450px)}',
 );
 
 $nav-break: (
